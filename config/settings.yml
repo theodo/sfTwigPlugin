@@ -1,3 +1,5 @@
 all:
   .settings:
     twig_extensions: []
+    # add app/appname/template directory to the template search path
+    twig_search_global_dir: false
